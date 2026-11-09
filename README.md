@@ -4,6 +4,8 @@ A public calendar of weekly West Coast Swing classes and socials across
 Southern California. It's built for phones, since most visitors arrive from an
 Instagram bio link.
 
+**Live site:** https://socal-wcs-calendar.vercel.app
+
 ## How it works
 
 It's a static site: plain HTML, CSS, and JavaScript, with no framework and no
