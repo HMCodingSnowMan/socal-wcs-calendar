@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fbf7f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16131a" media="(prefers-color-scheme: dark)">
+  <title>SoCal WCS Calendar</title>
+  <meta name="description" content="Weekly West Coast Swing classes and socials across Southern California.">
+  <meta property="og:title" content="SoCal WCS Calendar">
+  <meta property="og:description" content="Weekly West Coast Swing classes and socials across Southern California.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💃</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>SoCal WCS Calendar</h1>
+    <p class="tagline">Weekly West Coast Swing classes and socials across Southern California.</p>
+
+    <div class="actions">
+      <a class="btn btn-primary"
+         href="https://calendar.google.com/calendar/u/0?cid=OTEzMmUwODUwYWI4OTJmZjA2YTY1NWMwOGYxZDAwOTliYWFmMDVlYzFlZDk5MTYzYTY5OWVjYmEwNzdjMWJlYUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+         target="_blank" rel="noopener">Add to my Google Calendar</a>
+      <a class="btn btn-secondary"
+         href="https://instagram.com/hmhansome"
+         target="_blank" rel="noopener">Follow on Instagram</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" aria-labelledby="calendar-heading">
+      <h2 id="calendar-heading" class="visually-hidden">Calendar</h2>
+      <div class="calendar-frame" id="calendar-frame">
+        <noscript>
+          <iframe
+            title="SoCal WCS Calendar"
+            src="https://calendar.google.com/calendar/embed?src=9132e0850ab892ff06a655c08f1d0099baaf05ec1ed99163a699ecba077c1bea%40group.calendar.google.com&amp;ctz=America%2FLos_Angeles&amp;showPrint=0&amp;showCalendars=0&amp;showTabs=0&amp;mode=AGENDA"
+            loading="lazy"></iframe>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="quarter-heading">
+      <h2 id="quarter-heading">Coming up this quarter</h2>
+      <div class="cards" id="quarter-list"></div>
+    </section>
+
+    <section class="section" aria-labelledby="year-heading">
+      <h2 id="year-heading">Save the dates</h2>
+      <ul class="date-list" id="year-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Event times are posted weekly. Check with each venue for changes.</p>
+  </footer>
+
+  <script src="data/highlights.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
